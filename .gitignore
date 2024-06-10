@@ -1,0 +1,6 @@
+# ignore variables.tf file
+variable.tf
+*.terraform
+./Infrastructure/*terraform
+.terraform.lock.hcl
+.terraform
