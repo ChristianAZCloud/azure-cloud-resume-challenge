@@ -1,5 +1,5 @@
 # ignore variables.tf file
-variable.tf
+variables.tf
 *.terraform
 ./Infrastructure/*terraform
 .terraform.lock.hcl
