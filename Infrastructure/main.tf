@@ -56,7 +56,7 @@ resource "azurerm_cdn_endpoint" "CRC-CDNE" {
   location            = azurerm_resource_group.CRC-RG.location
 
   origin {
-    name      = "orgin"
+    name      = "origin"
     host_name = azurerm_storage_account.CRC-SA.primary_web_host
   }
 
